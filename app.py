@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def get_lidar_data():
     # Define the absolute path to the JSON file
-    json_file_path = r'C:\Users\sriva\OneDrive\Pictures\react - fronted- flask lidar showing\data.json'
+    json_file_path = 'data.json'
     
     # Read LIDAR data from JSON file
     try:
